@@ -1,0 +1,17 @@
+{
+  "business_name": "Your Business",
+  "port": 8080,
+
+  "auto_clockout_time": "23:00",
+  "biweekly_anchor_sunday": "2026-10-25",
+
+  "email": {
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "use_ssl": false,
+    "username": "your.sender.address@gmail.com",
+    "password": "your-16-char-app-password",
+    "from": "your.sender.address@gmail.com",
+    "to": ["boss@example.com"]
+  }
+}
